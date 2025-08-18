@@ -166,3 +166,9 @@ print("the minimums is ",min(score))
 print("the maximum is ",max(score))
 print("total score is ",sum(score))
 print("average of score",sum(score)/len(score))
+
+print(max(2,4,6,2,8,5,3))
+print(min(2,4,6,2,8,5,3))
+print(sum([2,4,6,2,8,5,3]))
+print(len([2,4,6,2,8,5,3])) 
+
