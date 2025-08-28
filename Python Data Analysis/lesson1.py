@@ -132,3 +132,5 @@ for p in Passenger:
   else:
       city_count[city]=1
       print(city_count)    # OUTPUT IS {'Adama': 1, 'Mojo': 1, 'Bishoftu': 1, 'Dukem': 1, 'Asella': 1}
+
+
