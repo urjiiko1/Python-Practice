@@ -17,6 +17,7 @@ print(airlines, "have", passengers, "passengers that departure from", from_city,
 
 print("          ")
 print("                   ")
+
 # next is list or commonly known as collecton of items
 
 passengers_names=["Gemachis Tesfaye", "Sisaay Tasew", "Bonsa Horsa", "Samuel Tilahun", "Daniel Alemayehu"]
@@ -32,6 +33,40 @@ passengers_names.append("Abebe Guta")
 print(passengers_names)
 passengers_names.remove("Gemachis Tesfaye")
 print(passengers_names)
+
+print("          ")
+print("                   ")
+
+## below is practice of Dictionaries 
+
+passengers_info={
+    "Name": "Gemachis Tesfaye",
+    "Age" : 21,
+    "Seat": "12A",
+    "From": "Addis Ababa",
+    "To": "Hawassa",
+}
+print(passengers_info)
+print(type(passengers_info))
+print(len(passengers_info))
+print(passengers_info["Name"])
+print(passengers_info["Age"])
+print(passengers_info["Seat"])
+print(passengers_info["From"])
+print(passengers_info["To"])
+
+passengers_info["Age"]=22  ## update the age
+passengers_info["Seat"]="14B"  ## update the seat
+print(passengers_info)
+
+passengers_info["Country"]="Ethiopian"  # added new key and their value
+print(passengers_info)
+
+del passengers_info["From"]  # removed From key from dictionary
+print(passengers_info)
+
+
+
 
 
 
