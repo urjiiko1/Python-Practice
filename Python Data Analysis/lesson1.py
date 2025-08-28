@@ -72,9 +72,9 @@ print("                   ")
 
 Passenger= [
     {"name": "Gemachis Tesfaye", "Age":21, "Seat":"12A", "Destination":"Adama"},
-    {"name":"Sisaay Tasew", "Age": 22, "Seat":"17B", "Destination":"Bishoftu"},
-    {"name":"Bonsa Tilahun", "Age":23, "Seat":"10C", "Destination": "Mojo"},
-    {"name":"Samuel Tilahun", "Age": 21, "Seat":"9B", "Destination":"Addis"},
+    {"name":"Sisaay Tasew", "Age": 22, "Seat":"17B", "Destination":"Mojo"},
+    {"name":"Bonsa Tilahun", "Age":23, "Seat":"10C", "Destination": "Bishoftu"},
+    {"name":"Samuel Tilahun", "Age": 21, "Seat":"9B", "Destination":"Bishoftu"},
     {"name":"Daniel Alemyew", "Age":20, "Seat": "15D", "Destination":"Dukem"}
 ]
 
@@ -110,3 +110,14 @@ count=0
 for n in Passenger:     
     if n["Age"]==21: count+=1   # count the number of passengers whose age is 21 years old
 print("the number of passengers whosoe age is 21 years old is =", count)  # OUTPUT IS the number of passengers whosoe age is 21 years old is = 2
+
+print("          ")
+
+# added some loop 
+for i in range(5):
+    print("Hello, welcome to Python")  #print this statement 5 times
+
+print(" Passengers going to Bishoftu are :")
+for p in Passenger:
+     if p["Destination"] =="Bishoftu":
+        print("-", p["name"])
