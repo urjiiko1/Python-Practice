@@ -78,6 +78,35 @@ Passenger= [
     {"name":"Daniel Alemyew", "Age":20, "Seat": "15D", "Destination":"Dukem"}
 ]
 
+print(Passenger[0])
+print(Passenger[1])
+print(Passenger[2])
+print(Passenger[3])
+print(Passenger[4])
+print(Passenger)
+print(type(Passenger))
+print(len(Passenger))
+print(Passenger[0]["name"])     ##accessing the value of name key from 1st dictionary
+print(Passenger[4]["Age"])     ##accessing the value of Age key from 5th dictionary
+print(Passenger[2]["Seat"])    ##accessing the value of Seat key from 3rd dictionary
+print(" ")
 
+for i in Passenger: print(i["name"], "is going into", i["Destination"])
+for p in Passenger:
+    if p["Age"]>21:
+        print(p["name"] , "is above 21 years old")
 
-
+Passenger.append({"name":"Abdi Guta", "Age":25, "Seat":"19B", "Destination":"Asella"})  #added new dictionary to the list
+print(Passenger)
+print(" ")
+del Passenger[1]  # removed 2nd dictionary from the list which is named Sisaay Tasew
+print(Passenger)
+print("          ")
+print(sorted(Passenger, key=lambda p:p["name"]))  # sorted the list of dictionary by their name in ascending order
+print("")
+print(sorted(Passenger, key=lambda a:a["name"], reverse=True))  # sorted the list of dictionary by their name in descending order
+print("    ")
+count=0
+for n in Passenger:     
+    if n["Age"]==21: count+=1   # count the number of passengers whose age is 21 years old
+print("the number of passengers whosoe age is 21 years old is =", count)  # OUTPUT IS the number of passengers whosoe age is 21 years old is = 2
