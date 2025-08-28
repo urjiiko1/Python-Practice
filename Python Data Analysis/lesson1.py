@@ -65,9 +65,10 @@ print(passengers_info)
 del passengers_info["From"]  # removed From key from dictionary
 print(passengers_info)
 
+# next is list+dictionary  which is list of dictionary
 
-
-
+print("          ")
+print("                   ")
 
 
 
