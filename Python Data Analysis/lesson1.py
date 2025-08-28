@@ -12,6 +12,8 @@ is_flight_on_time=True          ##boolean
 print(airlines, "have", passengers, "passengers that departure from", from_city, "into", to_city, 
       "the total price for this travel is" , price, "which flight is start Morning at" , departure_time, "and arrived at" , arrival_time, "is found = " ,is_flight_on_time)
 
+## OUTPUT IS
+# Ethiopian Airlines have 170 passengers that departure from Addis Ababa into Hawassa the total price for this travel is $50.3 which flight is start Morning at 2:25 LT and arrived at 3:05 LT is found =  True
 
 
 
