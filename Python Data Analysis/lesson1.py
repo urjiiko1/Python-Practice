@@ -75,7 +75,7 @@ Passenger= [
     {"name":"Sisaay Tasew", "Age": 22, "Seat":"17B", "Destination":"Bishoftu"},
     {"name":"Bonsa Tilahun", "Age":23, "Seat":"10C", "Destination": "Mojo"},
     {"name":"Samuel Tilahun", "Age": 21, "Seat":"9B", "Destination":"Addis"},
-    {}
+    {"name":"Daniel Alemyew", "Age":20, "Seat": "15D", "Destination":"Dukem"}
 ]
 
 
