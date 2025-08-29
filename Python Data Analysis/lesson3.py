@@ -54,4 +54,5 @@ print(passengers)
 #      'Age': 25, 'Seat': '04D', 'Destination': 'Gambella'}, {'Name': 'Tadesse Gebre', 'Age': 40, 'Seat': '19C', 'Destination': 'Mekelle'}]
 
 print(type(passengers)) # OUTPUT IS <class 'list'>
-print(len(passengers))  # OUTPUT IS 20
+print("The total number of passengers are :", len(passengers))  # OUTPUT IS 20
+print("first pessenger information", passengers[0]) # OUTPUT IS first pessenger information {'Name': 'Gemachis Tesfaye', 'Age': 21, 'Seat': '12A', 'Destination': 'Adama'}
