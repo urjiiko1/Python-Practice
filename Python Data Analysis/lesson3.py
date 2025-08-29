@@ -56,3 +56,13 @@ print(passengers)
 print(type(passengers)) # OUTPUT IS <class 'list'>
 print("The total number of passengers are :", len(passengers))  # OUTPUT IS 20
 print("first pessenger information", passengers[0]) # OUTPUT IS first pessenger information {'Name': 'Gemachis Tesfaye', 'Age': 21, 'Seat': '12A', 'Destination': 'Adama'}
+
+print("")
+ages =[n["Age"]for n in passengers]
+av_age=sum(ages)/len(ages)
+youngest=min (ages)
+oldest=max(ages)
+
+print("The average age of the passengers is :", av_age) # OUTPUT IS The average age of the passengers is : 30.0
+print("The youngest passenger is :", youngest) # OUTPUT IS The youngest passenger is : 19
+print("The oldest passenger is :", oldest) # OUTPUT IS The oldest passenger is : 50
