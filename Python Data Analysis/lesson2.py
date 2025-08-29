@@ -34,3 +34,14 @@ def passengers(*names):
         print(f"-{i}")
 passengers("Gemachis Tesfaye", "Sisaay Tasew", "Bonsa Tilahun")
 
+print("          ")
+# function with keyword arguments
+def passenger(**info):
+    print("Passenger Information")
+    for key, value in info.items():
+        print(f"{key}:{value}")
+passenger(Name="Gemachis Tesfaye", Age=21, Seat="12A", From="Addis Ababa", To="London") 
+passenger(Name="Sisaay Tasew", Age=22, Seat="17B", From="AbuSera", To="New York")
+passenger(Name="Bonsa Tilahun", Age=23, Seat="10C", From="Abusera", To="Dubai")
+
+
