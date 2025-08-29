@@ -25,3 +25,12 @@ def greet(name, message="welcome to Ethiopain Airlines!"):
 print(greet("Gemachis Tesfaye"))   #output is Hello Gemachis Tesfaye, welcome to Ethiopain Airlines!
 print(greet("Donald Trump😁", "we are happy to have you onboard!"))   #output is Hello Donald Trump😁, we are happy to have you onboard!
 print(greet("Elon Musk🚀", "enjoy your flight with us!"))   #output is Hello Elon Musk🚀, enjoy your flight with us!
+
+print("          ")
+# function with arbitrary number of arguments
+def passengers(*names):
+    print("The passengers names are :")
+    for i in names:
+        print(f"-{i}")
+passengers("Gemachis Tesfaye", "Sisaay Tasew", "Bonsa Tilahun")
+
