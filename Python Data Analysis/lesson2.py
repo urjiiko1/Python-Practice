@@ -1,9 +1,11 @@
 # here is function code
 
+ #this is simple greeting function only  use print for different passengers
+
 def greet(name):
     return f"Hello {name}, welcome to Ethiopian Airlines!"
 print(greet("Gemachis Tesfaye"))
-print(greet("Donald Trump😁"))   #this is simple greeting function only  use print for different passengers
+print(greet("Donald Trump😁"))  
 print(greet("Elon Musk🚀"))
 print(greet("Barack Obama"))
 print(greet("Bill Gates💻"))
@@ -43,5 +45,4 @@ def passenger(**info):
 passenger(Name="Gemachis Tesfaye", Age=21, Seat="12A", From="Addis Ababa", To="London") 
 passenger(Name="Sisaay Tasew", Age=22, Seat="17B", From="AbuSera", To="New York")
 passenger(Name="Bonsa Tilahun", Age=23, Seat="10C", From="Abusera", To="Dubai")
-
 
